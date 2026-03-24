@@ -1,0 +1,10 @@
+.active-btn {
+    background-color: #E7FE29;
+    color: #111;
+}
+
+.inactive-btn {
+    background-color: auto;
+    width: fit-content;
+    color: #555;
+}
