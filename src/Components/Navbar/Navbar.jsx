@@ -32,7 +32,7 @@ const Navbar = ({ coin }) => {
                         </li>
                         <li>
                             <div className="badge border-base-content/30 p-4">
-                                <span className='font-semibold'>{coin} Coin</span>
+                                <span className='font-semibold'>{coin}m Coin</span>
                                 <span className='text-warning'>
                                     <CirclePoundSterling />
                                 </span>

@@ -28,7 +28,7 @@ const isSelected = selectedPlayers.some(p => p.id === player.id);
                 <h4 className='text-base-content/50 font-semibold'>{player.batting_style}</h4>
             </div>
             <div className='flex justify-between items-center'>
-                <h4 className='text-base-content font-semibold'>Price: <span>{player.price_usd}</span></h4>
+                <h4 className='text-base-content font-semibold'>Price: <span>{player.price_usd}m</span></h4>
                 <button 
                     className={`btn font-medium ${isSelected ? 'inactive-btn' : 'active-btn'}`} 
                     disabled={isSelected}

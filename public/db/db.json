@@ -7,7 +7,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Medium",
     "rating": 92,
-    "price_usd": 1500000,
+    "price_usd": 1.5,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316600/316605.png"
   },
   {
@@ -18,7 +18,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Legbreak",
     "rating": 94,
-    "price_usd": 1300000,
+    "price_usd": 1.3,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/319900/319932.png"
   },
   {
@@ -29,7 +29,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Offbreak",
     "rating": 90,
-    "price_usd": 1400000,
+    "price_usd": 1.4,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320400/320448.png"
   },
   {
@@ -40,7 +40,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Offbreak",
     "rating": 91,
-    "price_usd": 1100000,
+    "price_usd": 1.1,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316500/316534.png"
   },
   {
@@ -51,7 +51,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Fast",
     "rating": 95,
-    "price_usd": 1450000,
+    "price_usd": 1.45,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/316400/316486.png"
   },
   {
@@ -62,7 +62,7 @@
     "batting_style": "Left-hand",
     "bowling_style": "Right-arm Offbreak",
     "rating": 89,
-    "price_usd": 1250000,
+    "price_usd": 1.25,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/322100/322196.png"
   },
   {
@@ -73,7 +73,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Medium",
     "rating": 88,
-    "price_usd": 1050000,
+    "price_usd": 1.05,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/321800/321894.png"
   },
   {
@@ -84,7 +84,7 @@
     "batting_style": "Left-hand",
     "bowling_style": "Left-arm Orthodox",
     "rating": 87,
-    "price_usd": 950000,
+    "price_usd": 0.95,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/384300/384351.png"
   },
   {
@@ -95,7 +95,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "None",
     "rating": 89,
-    "price_usd": 1150000,
+    "price_usd": 1.15,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/319700/319760.png"
   },
   {
@@ -106,7 +106,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "Right-arm Offbreak",
     "rating": 86,
-    "price_usd": 800000,
+    "price_usd": 0.8,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/321500/321588.png"
   },
   {
@@ -117,7 +117,7 @@
     "batting_style": "Right-hand",
     "bowling_style": "None",
     "rating": 88,
-    "price_usd": 1000000,
+    "price_usd": 1.0,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/346200/346282.png"
   },
   {
@@ -128,7 +128,7 @@
     "batting_style": "Left-hand",
     "bowling_style": "Left-arm Fast",
     "rating": 91,
-    "price_usd": 1350000,
+    "price_usd": 1.35,
     "image_link": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320/lsci/db/PICTURES/CMS/320400/320461.png"
   }
 ]

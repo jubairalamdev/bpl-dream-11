@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-slate-950 pt-46 -mt-42 z-20'>
-                <footer className="footer sm:footer-horizontal p-10 max-w-330 mx-auto text-base-content">
+                <footer className="footer sm:footer-horizontal p-10 max-w-330 mx-auto text-neutral-50">
                     <nav>
                         <h6 className="footer-title">Services</h6>
                         <a className="link link-hover">Branding</a>

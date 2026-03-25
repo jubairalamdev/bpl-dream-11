@@ -13,11 +13,12 @@ function App() {
 
   const [selectedPlayers, setSelectedPlayers] = useState([]);
 
-  const [coin, setCoin] = useState(9999999);
+  const [coin, setCoin] = useState(3);
 
   const addPlayer = (player) => {
     if (coin >= player.price_usd) {
-      setCoin(coin - player.price_usd);
+      const newCoin = (coin - player.price_usd).toFixed(2);
+      setCoin(parseFloat(newCoin));
       const newPlayers = [...selectedPlayers, player];
       setSelectedPlayers(newPlayers);
       toast.success("Player Added Successfully!")
@@ -34,8 +35,10 @@ function App() {
   }
 
   const addCoin = () => {
-    setCoin(coin + 200000)
-    toast.success("Added 200000 Coins")
+    const newCoin = (coin + 0.2).toFixed(2);
+    setCoin(parseFloat(newCoin))
+    // console.log(newCoin)
+    toast.success("Added 20k Coins")
   }
 
   const handleTabs = (tabName) => {
