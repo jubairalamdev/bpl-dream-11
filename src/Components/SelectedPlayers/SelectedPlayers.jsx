@@ -5,7 +5,7 @@ import axios from 'axios'
 import PlayerSelected from '../PlayerSelected/PlayerSelected';
 import NoPlayersFound from '../NoPlayersFound/NoPlayersFound';
 
-const playersDataPromise = axios.get("/db/db.json");
+const playersDataPromise = axios.get("https://gist.githubusercontent.com/jubairalamdev/b258cd559527f354d7d3451ae3a42283/raw/0d4bfb19191ae5e80ba108d28b94a421d8a783fb/gistfile1.txt");
 
 const SelectedPlayers = ({ handleTabs, selectedPlayers, removePlayer, availableTab }) => {
 
