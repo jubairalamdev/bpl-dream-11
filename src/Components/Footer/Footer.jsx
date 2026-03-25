@@ -9,11 +9,11 @@ const Footer = () => {
             <div className='bg-base-100/40 max-w-212.5 p-6 border-4 border-base-100 rounded-4xl mx-auto relative z-30'>
                 <div className=''>
                     <div className='bg-base-100 text-base-content rounded-xl'>
-                        <div className="min-h-84 flex justify-center items-center space-y-6 flex-col rounded-xl bg-cover" style={{ backgroundImage: `url(${bannerBg})` }}>
+                        <div className="min-h-84 flex justify-center items-center space-y-6 flex-col rounded-xl bg-cover  px-5 text-center" style={{ backgroundImage: `url(${bannerBg})` }}>
                             <h2 className='font-bold text-4xl text-base-content'>Subscribe to our Newsletter</h2>
                             <p className='font-light text-xl text-base-content/70'>Get the latest updates and news right in your inbox!</p>
                             <div>
-                                <div className="join space-x-2">
+                                <div className="join space-x-2 flex flex-wrap justify-center gap-2">
                                     <div>
                                         <label className="input validator join-item w-62.5 p-4 h-fit rounded-xl">
                                             <input type="email" placeholder="Enter Your email address" required />
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-slate-950 pt-46 -mt-42 z-20'>
-                <footer className="footer sm:footer-horizontal text-base-100 p-10 max-w-330 mx-auto">
+                <footer className="footer sm:footer-horizontal p-10 max-w-330 mx-auto text-base-content">
                     <nav>
                         <h6 className="footer-title">Services</h6>
                         <a className="link link-hover">Branding</a>

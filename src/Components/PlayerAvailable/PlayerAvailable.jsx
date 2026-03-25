@@ -2,27 +2,9 @@ import React from 'react';
 import { CircleUser } from 'lucide-react';
 import { Flag } from 'lucide-react';
 
-const Player = ({player, addPlayer}) => {
+const Player = ({player, addPlayer, selectedPlayers}) => {
 
-
-/**
- * {
-    "id": 1,
-    "name": "Virat Kohli",
-    "nationality": "India",
-    "role": "Batter",
-    "batting_style": "Right-hand",
-    "bowling_style": "Right-arm Medium",
-    "rating": 92,
-    "price_usd": 1500000,
-    "image_prompt": "Virat Kohli in blue Indian jersey, focused expression, holding a cricket bat",
-    "image_link": "https://i.imgur.com/your_virat_kohli_image.png"
-  }
- */
-
-
-
-
+const isSelected = selectedPlayers.some(p => p.id === player.id);
     return (
         <div className='bg-base-100 border-2 border-base-300 p-6 rounded-2xl space-y-4'>
             <div className='w-full flex justify-center'>
@@ -47,7 +29,13 @@ const Player = ({player, addPlayer}) => {
             </div>
             <div className='flex justify-between items-center'>
                 <h4 className='text-base-content font-semibold'>Price: <span>{player.price_usd}</span></h4>
-                <button className='btn font-medium active-btn' id={`selectPlayerBtn-${player.id}`} onClick={()=>{addPlayer(player)}}>Choose Player</button>
+                <button 
+                    className={`btn font-medium ${isSelected ? 'inactive-btn' : 'active-btn'}`} 
+                    disabled={isSelected}
+                    id={`selectPlayerBtn-${player.id}`} 
+                    onClick={()=>{addPlayer(player)}}>
+                        {isSelected ? 'Player Chosen' : 'Choose Player'}
+                </button>
             </div>
         </div>
     );

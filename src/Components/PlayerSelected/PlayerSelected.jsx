@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trash2 } from 'lucide-react';
 
-const PlayerSelected = ({player}) => {
+const PlayerSelected = ({player, removePlayer}) => {
     return (
         <div className='flex justify-between p-6 border-[0.5px] border-base-content/30 items-center rounded-2xl'>
             <div className='flex items-center gap-6'>
@@ -11,9 +11,9 @@ const PlayerSelected = ({player}) => {
                     <p className='text-base-content/50'>{player.batting_style}</p>
                 </div>
             </div>
-            <span className='text-error'>
+            <button className='text-error btn bg-none border-0' onClick={()=>{removePlayer(player)}}>
                 <Trash2 />
-            </span>
+            </button>
         </div>
     );
 };
